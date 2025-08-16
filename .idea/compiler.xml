@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bosai-homeworks" />
+        <module name="bosai-homework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bosai-homeworks" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

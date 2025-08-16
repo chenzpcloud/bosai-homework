@@ -15,7 +15,7 @@ Constant 常量类
 执行以下命令即可验证业务功能
 ```
 1. 获取会话：
-curl http://localhost:8002/1234/session
+curl http://localhost:8001/1234/session
 响应: 38SB018G (为客户1234创建的会话密钥)
 ```
 
