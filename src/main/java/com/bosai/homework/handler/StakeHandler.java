@@ -20,6 +20,7 @@ public class StakeHandler extends BaseHandler implements HttpHandler {
     public void handle(HttpExchange httpExchange) throws IOException {
         System.out.println("StakeHandler  handle  Method");
         try {
+            //处理Post 请求
             if (!"POST".equals(httpExchange.getRequestMethod())) {
                 buildResponse(httpExchange, 405, "Please  Use the POST method");
                 return;
