@@ -1,5 +1,5 @@
 # 运行
-####   执行 java -jar bosai-homeworks-1.0.0.jar 即可运行 该项目
+####   执行 java -jar bosai-homework-1.0.0.jar 即可运行 该项目
 #### 服务将在8001端口启动。
 ### 工程结构
 ```
